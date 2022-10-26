@@ -1,0 +1,197 @@
+h1, h2, h3, h4, h5, h6, p , body, .nav-link  {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Headings */
+
+.big-heading{
+    font-size: 3.25rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+.section-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 2%
+}
+
+/* Sections */
+
+.color-section{
+    background-color:#ff4c68 ;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* Title Section */
+
+#title{
+    text-align: left;
+}
+
+.dog-img{
+    width: 17%;
+    margin: 0 15%;
+    transform: rotate(22deg);
+    position: absolute;
+    right: 10%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Feature Section */
+
+#features{
+    padding: 5% 0;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-text{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.feature-item{
+    padding: 0 1.75%;
+}/* Le agrego padding para que el texto no quede tam estirado */
+
+
+.icon-feature{
+    color: #ef8172;
+    font-size: 3rem;
+    padding: 1.25rem 0;
+} /* En este caso le di yo el tamano para no estar atado al px de la imagen / coloque el padding en rem pq lo tenia en px*/
+
+
+.icon-feature:hover{
+    color: #ff4c68 ;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color:#ef8172;
+} /* No puede ser el mismo padding del anterior section pq el anterior estaba involucrado con container */
+
+.carousel-item{
+    padding: 7% 15%;
+} /* Traladamos el padding de testimonials para que afecte solamente al contenido y los btn no queden dentro */
+
+.img-testimonials{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Press */
+
+#press{
+    background-color:#ef8172;
+    padding-bottom: 4%;
+}
+
+.img-press{
+    width: 15%;
+    margin: 1.25rem 2.5rem;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 5.75rem;
+}
+
+.group-price{
+    padding: 3% 7% ;
+}
+
+.col-price{
+    padding: 0 1.25rem;
+}
+
+.text-price{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+@media (max-width:990px) {
+    #title{
+        text-align: center;
+    }
+
+    .dog-img{
+        width: 50%;
+        position: static;
+        transform:rotate(0);
+    }
+}
+
+/* Call to Action Section */
+
+#cta{
+    padding: 2% 14%;;
+}
+
+/* Footer Section */
+
+.icon-footer{
+    margin: 1%;
+}
+
+.text-footer{
+    margin-top: 2%;
+}
